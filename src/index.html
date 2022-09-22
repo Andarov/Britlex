@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britlex</title>
-
+    
     <!-- Tailwindcss -->
     <link rel="stylesheet" href="../dist/output.css">
-
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-
+    
 </head>
 <body class="font-poppins overflow-x-hidden">
     
     <header class="py-14">
+        <!-- Container -->
         <div class="container max-w-[1380px] mx-auto px-5">
+            <!-- Header -->
             <div class="flex justify-between items-center">
                 <!-- logo -->
                 <div>
@@ -48,13 +50,13 @@
                 <div class="hidden md:block">
                     <a class="inline-block text-center rounded-md w-40 xl:w-56 py-3 xl:py-4 border-2 border-light-black text-lg leading-7 xl:text-2xl xl:leading-9 hover:bg-black hover:text-white transition-all duration-300" href="#">Lets talk</a>
                 </div>
-
+                
                 <button id="menu" class="md:hidden">
                     <img src="../img/menu.svg" alt="Hamburger menu">
                 </button>
-
+                
             </div>
-
+            
             <!-- open-menu -->
             <div id="open-menu" class="hidden bg-black-rgba w-full absolute top-0 h-full">
                 <div class="flex flex-col w-full h-full sm:w-1/2 bg-white pl-5 pr-10">
@@ -96,8 +98,28 @@
             </div>
         </div>
     </header>
-
-
+    
+    <!-- Hero -->
+    <section id="hero" class="container max-w-[1380px] mx-auto px-5">
+        <div class="flex flex-col-reverse items-center justify-center md:flex-row md:justify-between">
+            <!-- Content -->
+            <div class="flex flex-col justify-center items-center text-center space-y-7 mx-auto md:text-left md:justify-start md:items-start md:mx-0 md:w-1/2">
+                <h3 class="font-semibold text-2xl max-w-sm sm:text-4xl lg:text-5xl lg:leading-snug xl:text-6xl xl:leading-snug">Learn Any Foreign Language</h3>
+                <p class="text-sm text-[#8F95A5] sm:text-base lg:text-xl xl:text-2xl max-w-xl">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
+                <div class="flex justify-center sm:justify-start w-full">
+                    <a class="py-5 sm:py-6 md:py-5 lg:py-6 xl:py-8 bg-light-black text-base sm:text-lg lg:text-2xl xl:text-4xl xl:leading-snug text-white rounded-md xl:rounded-2xl w-full mx-auto text-center border-2 hover:border-2 hover:bg-white hover:text-light-black transition-all duration-300 md:mx-0 sm:w-80 md:w-72 lg:w-[440px]" href="#">Get it on Chrome</a>
+                </div>
+            </div>
+            
+            <!-- IMG -->
+            <div class="mx-auto md:mx-0 md:w-1/2">
+                <img class="w-" src="../img/Learning-languages.png" alt="Learning-languages">
+            </div>
+            
+        </div>
+    </section>
+    
+    
     <script src="../src/app.js"></script>
 </body>
 </html>
