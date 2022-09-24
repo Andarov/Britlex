@@ -11,3 +11,4 @@ elExit.addEventListener('click', function() {
     elOpenMenu.classList.remove('block')
     elOpenMenu.classList.add('hidden')
 })
+
